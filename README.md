@@ -1,11 +1,16 @@
-# Automated-Routing-Protocol-Validation-Framework
-Overview
+Automated Routing Protocol Validation Framework is a Python-based automation platform designed to validate Layer 2 and Layer 3 routing behavior in virtualized Linux environments.
 
-Automated Routing Protocol Validation Framework is a Python-based automation platform designed to validate Layer 2 and Layer 3 routing behavior in virtualized Linux environments. The framework simulates multi-node router topologies using Linux network namespaces and automates route injection, convergence validation, and routing table verification.
+The framework simulates multi-node router topologies using Linux network namespaces and automates:
 
-The system is built to reflect real-world routing software validation workflows used in service provider and distributed network environments. It enables scalable, repeatable, and CI/CD-compatible regression testing of routing behavior.
+Route injection
 
-Objectives
+Convergence validation
+
+Routing table verification
+
+It reflects real-world routing software validation workflows used in service provider and distributed network environments, enabling scalable, repeatable, and CI/CD-compatible regression testing.
+
+🎯 Objectives
 
 Simulate virtual router topologies in isolated Linux namespaces
 
@@ -17,7 +22,7 @@ Support regression testing of L2/L3 protocol workflows
 
 Enable CI/CD integration for automated qualification
 
-Key Features
+✨ Key Features
 
 Multi-node virtual router simulation
 
@@ -31,7 +36,7 @@ Failure scenario simulation (link down, route withdrawal)
 
 Modular and extensible architecture
 
-Architecture
+🏗 Architecture
 Virtual Routers (Linux Namespaces)
         ↓
 Interface Configuration
@@ -43,9 +48,9 @@ Routing Table Validation
 Structured Test Result Output
 
 
-Each virtual router operates in an isolated namespace, allowing realistic simulation of distributed routing environments.
+Each virtual router operates in an isolated namespace, enabling realistic simulation of distributed routing environments.
 
-Tech Stack
+🛠 Tech Stack
 
 Python
 
@@ -57,7 +62,7 @@ Bash Integration
 
 CI/CD Compatible Execution
 
-Installation
+⚙ Installation
 Prerequisites
 
 Linux (Ubuntu recommended)
@@ -68,24 +73,22 @@ Root privileges (required for namespace creation)
 
 Clone Repository
 git clone https://github.com/kaustubh-5016/Automated-Routing-Protocol-Validation-Framework.git
-cd routing-validation-framework
+cd Automated-Routing-Protocol-Validation-Framework
 
 Install Dependencies
 pip install -r requirements.txt
 
-Usage
+▶ Usage
 
 Run the framework:
 
 sudo python3 main.py
 
-
-Example output:
-
+Example Output
 Starting Routing Validation Framework...
 Route validated successfully
 
-Example Test Workflow
+🧪 Example Test Workflow
 
 Create virtual routers
 
@@ -97,19 +100,19 @@ Validate route presence
 
 Log results
 
-Future Enhancements
+🔮 Future Enhancements
 
 Integration with FRRouting for dynamic OSPF/BGP testing
 
 Traffic generator integration
 
-JSON/HTML reporting
+JSON/HTML test reporting
 
 Jenkins pipeline automation
 
 Scalability benchmarking
 
-Learning Outcomes
+📚 Learning Outcomes
 
 This project demonstrates:
 
@@ -123,6 +126,6 @@ Distributed systems validation concepts
 
 CI/CD-ready architecture
 
-License
+📄 License
 
 This project is developed for educational and research purposes.
