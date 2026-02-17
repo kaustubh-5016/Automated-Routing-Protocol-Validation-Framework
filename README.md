@@ -67,7 +67,7 @@ Python 3.8+
 Root privileges (required for namespace creation)
 
 Clone Repository
-git clone https://github.com/your-username/routing-validation-framework.git
+git clone https://github.com/kaustubh-5016/Automated-Routing-Protocol-Validation-Framework.git
 cd routing-validation-framework
 
 Install Dependencies
